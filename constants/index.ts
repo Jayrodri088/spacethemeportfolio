@@ -1,6 +1,7 @@
 import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
   RxDiscordLogo,
+  RxEnvelopeClosed,
   RxGithubLogo,
   RxInstagramLogo,
   RxTwitterLogo,
@@ -69,35 +70,18 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
 ] as const;
 
 export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://www.instagram.com/jaypedro_/",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://x.com/Jayrodri32",
   },
 ] as const;
 
@@ -157,10 +141,16 @@ export const BACKEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "Java",
+    image: "java.png",
+    width: 90,
+    height: 90,
+  },
+  {
+    skill_name: "PHP",
+    image: "php.png",
+    width: 80,
+    height: 80,
   },
 
 
@@ -175,22 +165,40 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
+    title: "ODS – Instant Topup With ODS",
     
-    image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    image: "/projects/project-1.png",
+    link: "https://olivesdata.com/",
   },
   {
-    title: "Tekisky – The Future of Tech",
+    title: "Zentry – Redefine Gaming",
 
-    image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    image: "/projects/project-2.png",
+    link: "https://awards-jay.netlify.app/",
   },
   {
-    title: "Speedline Auto Parts – The Future of Auto Parts",
+    title: "ABTM Website – A Billion Testimonies and More",
    
-    image: "/projects/project-3.webp",
-    link: "https://speedlineautoparts.netlify.app/",
+    image: "/projects/project-3.png",
+    link: "https://rhapsodyofrealities.abilliontestimoniesandmore.org/",
+  },
+  {
+    title: "Tansu Vault – Transform Your Treasury",
+    
+    image: "/projects/project-4.png",
+    link: "https://vault.tansu.dev/",
+  },
+  {
+    title: "Tansu – Bringing oss dev to the Stellar blockchain",
+
+    image: "/projects/project-5.png",
+    link: "https://tansu.dev/",
+  },
+  {
+    title: "RON Portal – ReachOut Nigeria Reports Portal",
+   
+    image: "/projects/project-6.png",
+    link: "https://reachoutnigeriaportal.org/",
   },
 ] as const;
 
@@ -202,7 +210,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Jayrodri088/",
       },
 
     ],
@@ -214,7 +222,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/john-asogwa-1a50a72a3/",
       },
     ],
   },
@@ -224,8 +232,8 @@ export const FOOTER_DATA = [
    
       {
         name: "Contact Me",
-        icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        icon: RxEnvelopeClosed,
+        link: "Johnbetho.c.088@gmail.com",
       },
     ],
   },
